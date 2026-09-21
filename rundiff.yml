@@ -1,0 +1,20 @@
+version: 1
+
+scenario:
+  path: /widgets
+
+subject:
+  persistence: postgresql
+  setup:
+    mode: auto
+  services:
+    - name: app
+      type: process
+      runtime: node
+      entrypoint: server.mjs
+      port_env: PORT
+      url_env: APP_URL
+      readiness:
+        type: http
+        path: /health
+        timeout_seconds: 10
