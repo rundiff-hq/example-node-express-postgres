@@ -21,7 +21,10 @@ app.get("/health", async (_request, response) => {
 
 app.post("/widgets", async (_request, response) => {
   const result = await pool.query("SELECT 1::int AS ok");
-  response.status(200).json({\n    ok: result.rows[0].ok === 1,\n    meta: "warning-proof-response-size-padding-0123456789-abcdefghijklmnopqrstuvwxyz"\n  });
+  response.status(200).json({
+    ok: result.rows[0].ok === 1,
+    meta: "warning-proof-response-size-padding-0123456789-abcdefghijklmnopqrstuvwxyz"
+  });
 });
 
 const server = app.listen(port, "127.0.0.1", () => {
