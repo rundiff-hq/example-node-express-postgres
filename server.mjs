@@ -21,7 +21,7 @@ app.get("/health", async (_request, response) => {
 
 app.post("/widgets", async (_request, response) => {
   const result = await pool.query("SELECT 1::int AS ok");
-  response.status(500).json({ ok: false, database_ok: result.rows[0].ok === 1 });
+  response.status(200).json({ ok: result.rows[0].ok === 1 });
 });
 
 const server = app.listen(port, "127.0.0.1", () => {
