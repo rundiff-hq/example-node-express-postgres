@@ -1,0 +1,8 @@
+RunDiff external Node acceptance proof retrigger after GitHub App installation.
+Retry after external-repository detection fix.
+Retry after idempotent remote setup fix.
+Final proof after Cloudflare production deploy f5274c36-59db-4f66-abec-6abbcd007ef1.
+VS18 automatic dispatch acceptance after Worker 5a0e5ad6-7993-443a-87b7-6d161e0078fd.
+VS18 automatic dispatch acceptance after workflow validation fix.
+VS18 clean main-branch cutover proof after Worker 04538f9b-7729-49be-815d-6135aa5d485f.
+VS18 clean main-branch proof after Go executor bootstrap 00d623cb340c36039e4962ce6df5b198e6e3c124.
