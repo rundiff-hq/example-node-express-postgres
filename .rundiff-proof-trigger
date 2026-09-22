@@ -1,3 +1,4 @@
 RunDiff external Node acceptance proof retrigger after GitHub App installation.
 Retry after external-repository detection fix.
 Retry after idempotent remote setup fix.
+Final proof after Cloudflare production deploy f5274c36-59db-4f66-abec-6abbcd007ef1.
