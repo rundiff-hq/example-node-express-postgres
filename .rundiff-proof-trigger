@@ -3,3 +3,4 @@ Retry after external-repository detection fix.
 Retry after idempotent remote setup fix.
 Final proof after Cloudflare production deploy f5274c36-59db-4f66-abec-6abbcd007ef1.
 VS18 automatic dispatch acceptance after Worker 5a0e5ad6-7993-443a-87b7-6d161e0078fd.
+VS18 automatic dispatch acceptance after workflow validation fix.
